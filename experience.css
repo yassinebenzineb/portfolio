@@ -80,6 +80,37 @@ nav ul li a:hover {
     margin-bottom: auto;
 
 }
+.experience-card {
+    background: #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.experience-card:hover {
+    transform: translateY(-10px);
+}
+
+.experience-card h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.experience-card p {
+    color: white;
+}
+
+.experience-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .container img {
     height: 300px;
     width: 350px;
